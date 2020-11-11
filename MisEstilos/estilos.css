@@ -1,0 +1,131 @@
+* {
+    margin: 0; padding: 5px;
+}
+html {
+    font-size: 62,5%;
+    font-family: 'Roboto Slab', serif;
+    background-color:#ffffff ;
+    box-sizing: border-box;
+}
+
+body {
+    color: black ;
+    
+}
+
+h1 {
+    text-align: left;
+    font-size: 2.5rem;
+    color: rebeccapurple;
+}
+
+h2 {
+    color: rebeccapurple;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: inherit;
+    
+}
+
+nav ul  {
+    list-style: none;
+    
+
+}
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+    position: relative;
+    font-size: 20px;
+    padding: 5px;
+} 
+
+ul li a:hover{
+    background: rgba(0,0,0,.15);
+    box-shadow: inset 0 0 0.25em 0 rgba(0,0,0,.125);
+    color: purple;
+     }
+
+.formularioPedido {
+    margin: 0 auto;
+    align-content: center;
+    border-radius: 1rem;
+    border: 0.1 rem solid #23C1EB;
+    width: 50rem;
+    background-color: whitesmoke;
+}
+
+.caja1 {
+    margin: 100px;
+    padding: 20px;
+    ;
+}   
+
+.caja2 {
+    background-color:pink;
+    margin: 2px;
+    padding: 2px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.caja3 {
+    background-color:pink;
+
+    margin: 2px;
+    padding: 2px;
+    display: flex;
+    flex-direction: row;
+}
+
+.caja4 {
+    border:solid 5px #02E6EB;
+    margin: 100px;
+    padding: 20px;
+}
+
+.caja5 {
+        width: 100%;  
+        margin: auto;
+        
+}
+
+.gridPadre {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    
+}
+
+.caja7:hover{
+    filter: opacity(0.5);
+    transform: scale(1.05);
+
+}
+
+.fotos {
+    width: 250px;
+    height: 250px;
+    
+}
+
+#cartas {
+ display:flex;
+ justify-content: space-between; 
+}
+
+.fotosCartas{
+    width: 275px;
+    height: 200px;
+}
+
+.nosotrosCuerpo{
+    display: flex;
+    flex-direction: row-reverse;
+}
